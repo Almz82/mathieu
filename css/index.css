@@ -4,11 +4,18 @@
 				url("../fonts/minipax/Minipax.woff"),
 				url("../fonts/minipax/Minipax.woff2");
 }
+@font-face{
+	font-family: "junicode";
+		src:	url("../fonts/junicode/Junicode-regular.otf"),
+				url("../fonts/junicode/Junicode-regular.ttf"),
+				url("../fonts/junicode/Junicode-regular.woff"),
+				url("../fonts/junicode/Junicode-regular.woff2");
+}
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family: "minipax";
+	font-family: "junicode";
 	font-weight:normal;
 }
 html{
@@ -38,7 +45,7 @@ ul{
 }
 li{
 	color: white;
-	text-shadow: 1px 1px 1px #00000046;
+	/* text-shadow: 1px 1px 1px #00000046; */
 	list-style: none;
 	white-space: nowrap;
 }
@@ -100,19 +107,20 @@ img{
 h2{
 	font-size: clamp(2.5rem, 4vw, 4rem);
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: rgba(253, 249, 249, 0.54);
-	text-shadow: 1px 1px 1px #000000af;
+	color: rgba(253, 249, 249, 0.688);
+	/* text-shadow: 1px 1px 1px #000000af; */
 	transition: color .3s;
 	padding: 2rem;
 }
 h2:hover{
 	transition: color .3s;
 	cursor: pointer;
-	color: rgb(253, 249, 249);;
-	text-shadow: 1px 1px 1px #000000af;
+	color: rgb(253, 249, 249);
+	opacity: 1 !important;
+	/* text-shadow: 1px 1px 1px #000000af; */
 }
 
 .temps-container{
@@ -124,21 +132,22 @@ h2:hover{
 	display: flex;
 	font-size: clamp(1.1rem, 2.5vw, 2.5rem);
 	z-index: 1000;
+	user-select: none;
 }
 
 .temps[data-temps = "passe"]{
 	color:#194a5a;
-	text-shadow: 1px 1px 1px #00000046;
+	/* text-shadow: 1px 1px 1px #00000046; */
 	transition-duration:.3s;
 }
 .temps[data-temps = "present"]{
 	color:#903b2a;
-	text-shadow: 1px 1px 1px #00000046;
+	/* text-shadow: 1px 1px 1px #00000046; */
 	transition-duration:.3s;
 }
 .temps[data-temps = "futur"]{
 	color:#c19c55;
-	text-shadow: 1px 1px 1px #00000046;
+	/* text-shadow: 1px 1px 1px #00000046; */
 	transition-duration:.3s;
 }
 

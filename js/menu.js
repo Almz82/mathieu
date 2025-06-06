@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.utils.toArray("h2").forEach((text) => {
         gsap.from(text, {
             opacity: 0,
-            y: -350,
+            y: -320,
             scrollTrigger: {
                 scrub: true,
                 trigger: text,
@@ -58,11 +58,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 const tempsContainer = document.querySelector(".temps-container .temps"); 
                 tempsContainer.dataset.temps = temps;
                 if (temps == "passe"){
-                    tempsContainer.textContent = "passé";
+                    tempsContainer.textContent = "passés";
                 } else if (temps == "present"){
-                    tempsContainer.textContent = "présent";
+                    tempsContainer.textContent = "présents";
                 } else if (temps == "futur"){
-                    tempsContainer.textContent = "futur";
+                    tempsContainer.textContent = "futurs";
                 }
                 
             },
