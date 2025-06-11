@@ -58,7 +58,7 @@ window.onload = () => {
 			},100);
 
 			setTimeout(()=>{
-				window.location.href = "../index.html";
+				window.location.href = "index.html";
 			}, 500);
 		}	
 	});		
