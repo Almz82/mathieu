@@ -1,0 +1,81 @@
+#exergue{
+	padding-top:7rem;
+	padding-bottom:3rem;
+	margin-left:20%;
+	margin-right:20%;
+	text-align:right;
+	font-style:italic;
+	font-family:minipax;
+	font-size:2rem;
+	opacity:0;
+	transition:0.5s;
+
+}
+#portrait{
+	padding-top:5rem;
+	text-align:center;
+}
+#portrait img{
+	height:90vh;
+	margin:auto;
+}
+#signature{
+	font-family:minipax;
+	font-size:1.6rem;
+	margin-top: 8rem;
+	margin-bottom:4rem;
+	margin-left:10%;
+	margin-right:10%;
+}
+#signature:hover #arrow-signature{
+	visibility: hidden;
+}
+#arrow-signature{
+	margin-right:1rem;
+}
+#signature a{
+	text-decoration:none;
+	color:black;
+}
+#signature:hover span{
+	text-decoration:underline;
+}
+
+@media screen and (max-width: 1160px){
+	#signature{
+		margin-left:20%;
+		margin-right:20%;
+	}
+}
+@media screen and (max-width: 960px){
+	#portrait{
+		padding-bottom:2rem;
+	}
+}
+@media screen and (max-width: 660px){
+	#portrait{
+		padding-top:2rem;
+		margin-left:17%;
+		margin-right:17%;
+	}
+	#portrait img{
+		width:100%;
+		height:auto;
+	}
+	#signature{
+		margin-left:17%;
+		margin-right:17%;
+	}
+}
+@media screen and (max-width: 560px){
+	#portrait, #signature{
+		margin-left:13%;
+		margin-right:13%;
+	}
+}
+@media screen and (max-width: 410px){
+	#portrait, #signature{
+		margin-left:10%;
+		margin-right:10%;
+	}
+}

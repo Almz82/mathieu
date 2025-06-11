@@ -1,0 +1,359 @@
+.portfolio.projet{
+	position:relative;
+	margin-top:15rem;
+	margin-bottom:3rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+.portfolio.expo{
+	position:relative;
+	left:-6%;
+	width:95vw;
+	margin-top:4rem;
+}
+.slider.projet{
+	position:relative;
+	height:75vh;
+	margin-left:10%;
+	margin-right:10%;
+}
+.slider.expo{
+	position:relative;
+	height:85vh;
+	margin-left:10%;
+	margin-right:10%;
+}
+.slide{
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	opacity:0;
+}
+.slide.current{
+	opacity:1;
+}
+
+#prev-projet{
+	position:absolute;
+	top:47%;
+	left:-6%;
+	cursor:pointer;
+}
+#next-projet{
+	position:absolute;
+	top:47%;
+	right:-6%;
+	cursor:pointer;
+}
+.no-arrow{
+	opacity:0;
+	pointer-events:none;
+}
+video{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:10;
+}
+.slide.media{
+	height:0%;
+	width:0%;
+}
+.slide.current.media{
+	height:100%;
+	width:100%;
+}
+/* textes slides */
+.textes-slide{
+	transition-duration:1s;
+	opacity:0;
+	height:100%;
+	width:50%;
+	margin:auto;
+}
+#slide-hover:hover .textes-slide.current{
+	transition-duration:0.5s;
+	opacity:1;
+}
+
+.texte-slide{
+	position:absolute;
+	top:-8.5rem;
+	font-family:"minipax";
+	font-size:1.3rem;
+	width:50%;
+}
+.grey{
+	color:#595757;
+}
+.cartel{
+	position:absolute;
+	bottom:-3rem;
+	font-size:1.3rem;
+	width:70%;
+}
+/* SLIDES EXPO */
+.slide.expo:first-child{
+	background: url('../images/part-du-feu/expo/Expo-striquier_0001.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(2){
+	background: url('../images/part-du-feu/expo/Expo-striquier_0004.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(3){
+	background: url('../images/part-du-feu/expo/PLY_Riso27.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(4){
+	background: url('../images/part-du-feu/expo/PLY_Riso58.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(5){
+	background: url('../images/part-du-feu/expo/PLY_Riso65.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(6){
+	background: url('../images/part-du-feu/expo/PLY_Riso74.jpg') no-repeat center;
+	background-size:contain;
+}
+
+/* SLIDES PROJET */
+.slide.projet:first-child{
+	background: url('../images/part-du-feu/Lapartdufeu_0001.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(2){
+	background: url('../images/part-du-feu/Lapartdufeu_0002.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(3){
+	background: url('../images/part-du-feu/Lapartdufeu_0003.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(4){
+	background: url('../images/part-du-feu/Lapartdufeu_0004.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(5){
+	background: url('../images/part-du-feu/Lapartdufeu_0005.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(6){
+	background: url('../images/part-du-feu/Lapartdufeu_0006.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(7){
+	background: url('../images/part-du-feu/Lapartdufeu_0007.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(8){
+	background: url('../images/part-du-feu/Lapartdufeu_0008.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(9){
+	background: url('../images/part-du-feu/Lapartdufeu_0009.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(10){
+	background: url('../images/part-du-feu/Lapartdufeu_0010.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(11){
+	background: url('../images/part-du-feu/Lapartdufeu_0011.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(12){
+	background: url('../images/part-du-feu/Lapartdufeu_0012.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(13){
+	background: url('../images/part-du-feu/Lapartdufeu_0013.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(14){
+	background: url('../images/part-du-feu/Lapartdufeu_0014.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(15){
+	background: url('../images/part-du-feu/Lapartdufeu_0015.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(16){
+}
+.slide.projet:nth-child(17){
+	background: url('../images/part-du-feu/Lapartdufeu_0018.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(18){
+	background: url('../images/part-du-feu/Lapartdufeu_0019.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(19){
+	background: url('../images/part-du-feu/Lapartdufeu_0020.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(20){
+	background: url('../images/part-du-feu/Lapartdufeu_0021.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(21){
+	background: url('../images/part-du-feu/Lapartdufeu_0022.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(22){
+	background: url('../images/part-du-feu/Lapartdufeu_0023.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(23){
+	background: url('../images/part-du-feu/Lapartdufeu_0024.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(24){
+	background: url('../images/part-du-feu/Lapartdufeu_0025.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(25){
+	background: url('../images/part-du-feu/Lapartdufeu_0026.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(26){
+	background: url('../images/part-du-feu/Lapartdufeu_0027.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(27){
+	background: url('../images/part-du-feu/Lapartdufeu_0028.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(28){
+	background: url('../images/part-du-feu/Lapartdufeu_0029.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(29){
+	background: url('../images/part-du-feu/Lapartdufeu_0030.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(30){
+	background: url('../images/part-du-feu/Lapartdufeu_0031.jpg') no-repeat center;
+	background-size:contain;
+}
+@media screen and (max-width: 1120px){
+	.portfolio.projet{
+		margin-top:13rem;
+	}
+}
+@media screen and (max-width: 1060px){
+	.portfolio.projet{
+		margin-top:11rem;
+	}
+}
+@media screen and (max-width: 960px){
+	.portfolio.projet{
+		margin-top:10rem;
+	}
+}
+@media screen and (max-width: 860px){
+	.portfolio.projet{
+		margin-top:9rem;
+	}
+	.slider.expo{
+		height:80vh;
+	}
+	.textes-slide{
+		width:80%;
+	}
+	.texte-slide{
+		width:80%;
+	}
+	#prev-projet{
+		left:-8%;
+	}
+	#next-projet{
+		right:-8%;
+	}
+}
+@media screen and (max-width: 760px){
+	.portfolio.projet{
+		margin-top:8rem;
+	}
+	.slider.expo{
+		height:75vh;
+	}
+}
+@media screen and (max-width: 660px){
+	.slider.expo{
+		height:70vh;
+	}
+	.textes-slide{
+		opacity:1;
+	}
+	.texte-slide{
+		top:-9.5rem;
+	}
+}
+@media screen and (max-width: 560px){
+	.slider.expo{
+		height:65vh;
+	}
+	.textes-slide{
+		width:90%;
+	}
+	.texte-slide{
+		width:90%;
+	}
+}
+@media screen and (max-width: 460px){
+	.portfolio.projet{
+		margin-top:6rem;
+		margin-bottom:8rem;
+	}
+	.slider.projet{
+		height:65vh;
+	}
+	.slider.expo{
+		height:55vh;
+	}
+	.cartel{
+	bottom:-4rem;
+	}
+	#prev-projet{
+		left:-9%;
+	}
+	#next-projet{
+		right:-9%;
+	}
+}
+@media screen and (max-width: 360px){
+	.portfolio.expo{
+		margin-top:3rem;
+	}
+	.portfolio.projet{
+		margin-top:8rem;
+		margin-bottom:10rem;
+	}
+	.slider.projet{
+		height:50vh;
+	}
+	.slider.expo{
+		height:50vh;
+	}
+	.textes-slide{
+		width:95%;
+	}
+	.texte-slide{
+		width:95%;
+		top:-11.5rem;
+	}
+	.cartel{
+	bottom:-6.5rem;
+	}
+	#prev-projet{
+		left:-10%;
+	}
+	#next-projet{
+		right:-10%;
+	}
+}

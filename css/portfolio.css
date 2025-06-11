@@ -1,0 +1,33 @@
+.doc-container{
+    margin: auto;
+    padding-right: 5vw;
+    width: fit-content;
+    font-family:'minipax';
+    font-size:2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    height: 4rem;
+    visibility: hidden;
+    opacity: 0;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+}
+li > a > svg{
+    fill: white;
+}
+li > a:hover > svg{
+    fill: black
+}
+li > a:visited > svg{
+    fill: rgba(120, 120, 120, 0.732);
+}
+li > a:visited{
+    color: rgba(120, 120, 120, 0.732);
+}

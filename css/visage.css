@@ -1,0 +1,514 @@
+.portfolio.projet{
+	position:relative;
+	margin-top:7rem;
+	margin-bottom:3rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+.portfolio.expo{
+	position:relative;
+	left:-6%;
+	width:95vw;
+	margin-top:4rem;
+}
+.slider.projet{
+	position:relative;
+	height:95vh;
+	margin-left:10%;
+	margin-right:10%;
+}
+.slider.expo{
+	position:relative;
+	height:85vh;
+	margin-left:10%;
+	margin-right:10%;
+}
+.slide{
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	opacity:0;
+}
+.slide.current{
+	opacity:1;
+}
+
+#prev-projet{
+	position:absolute;
+	top:47%;
+	left:-6%;
+	cursor:pointer;
+}
+#next-projet{
+	position:absolute;
+	top:47%;
+	right:-6%;
+	cursor:pointer;
+}
+.no-arrow{
+	opacity:0;
+	pointer-events:none;
+}
+video{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:10;
+}
+audio{
+	position:absolute;
+	top:42%;
+	left:24%;
+	width:50%;
+	height:10%;
+	z-index:10;
+}
+.slide.media{
+	height:0%;
+	width:0%;
+}
+.slide.current.media{
+	height:100%;
+	width:100%;
+}
+/* SLIDES EXPO */
+.slide.expo:first-child{
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0001.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(2){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0002.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(3){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0003.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(4){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0004.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(5){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0005.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(6){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0006.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(7){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0007.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(8){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0008.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(9){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0009.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.expo:nth-child(10){
+	background: url('../images/je-nhabitais/expo/Mfarcy-striq_0010.jpg') no-repeat center;
+	background-size:contain;
+}
+/* SLIDES PROJET */
+.slide.projet:first-child{
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0001.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(2){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0002.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(3){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0003.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(4){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0004.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(5){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0005.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(6){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0006.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(7){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0007.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(8){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0008.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(9){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0008bis.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(10){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0009.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(11){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0010.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(12){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0011.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(13){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0012.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(14){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0013.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(15){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0014.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(16){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0015.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(17){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0016.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(18){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0017.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(19){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0018.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(20){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0019.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(21){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0020.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(22){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0021.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(23){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0022.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(24){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0023.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(25){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0024.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(26){
+}
+.slide.projet:nth-child(27){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0025.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(28){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0026.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(29){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0027.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(30){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0028.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(31){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0029.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(32){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0030.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(33){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0031.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(34){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0032.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(35){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0033.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(36){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0034.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(37){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0035.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(38){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0036.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(39){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0037.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(40){
+}
+.slide.projet:nth-child(41){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0038.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(42){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0039.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(43){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0040.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(44){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0041.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(45){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0042.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(46){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0043.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(47){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0044.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(48){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0045.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(49){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0046.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(50){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0047.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(51){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0048.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(52){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0049.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(53){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0050.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(54){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0051.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(55){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0052.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(56){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0053.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(57){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0054.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(58){
+	background: url('../images/je-nhabitais/poeme1.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(59){
+	background: url('../images/je-nhabitais/poeme2.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(60){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0055.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(61){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0056.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(62){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0057.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(63){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0058.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(64){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0059.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(65){
+	background: url('../images/je-nhabitais/Mfarcy_jenhabitais_0060.jpeg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(66){
+}
+#livre{
+	font-family:minipax;
+	font-size:1.6rem;
+	margin-top: 8rem;
+	margin-bottom:4rem;
+	margin-left:10%;
+	margin-right:10%;
+}
+#livre:hover #arrow-livre{
+	visibility: hidden;
+}
+#arrow-livre{
+	margin-right:1rem;
+}
+#livre a{
+	text-decoration:none;
+	color:black;
+}
+#livre:hover span{
+	text-decoration:underline;
+}
+@media screen and (max-width: 1120px){
+	#livre{
+		margin-left:20%;
+		margin-right:20%;
+	}
+}
+@media screen and (max-width: 1060px){
+	audio{
+		top:43%;
+		left:20%;
+		width:60%;
+		height:10%;
+	}
+}
+@media screen and (max-width: 860px){
+	.portfolio.projet{
+		margin-top:4rem;
+	}
+	.slider.projet{
+		height:90vh;
+	}
+	.slider.expo{
+		height:80vh;
+	}
+	#prev-projet{
+		left:-8%;
+	}
+	#next-projet{
+		right:-8%;
+	}
+}
+@media screen and (max-width: 760px){
+	.slider.projet{
+		height:85vh;
+	}
+	.slider.expo{
+		height:75vh;
+	}
+	audio{
+		top:44%;
+		left:15%;
+		width:70%;
+		height:10%;
+	}
+}
+@media screen and (max-width: 660px){
+	.slider.projet{
+		height:80vh;
+	}
+	.slider.expo{
+		height:70vh;
+	}
+	#livre{
+		margin-left:17%;
+		margin-right:17%;
+	}
+}
+@media screen and (max-width: 560px){
+	.slider.projet{
+		height:70vh;
+	}
+	.slider.expo{
+		height:65vh;
+	}
+	#livre{
+		margin-left:13%;
+		margin-right:13%;
+	}
+}
+@media screen and (max-width: 460px){
+	.slider.projet{
+		height:60vh;
+	}
+	.slider.expo{
+		height:55vh;
+	}
+	#prev-projet{
+		left:-9%;
+	}
+	#next-projet{
+		right:-9%;
+	}
+	audio{
+		top:45%;
+		left:10%;
+		width:80%;
+		height:10%;
+	}
+}
+@media screen and (max-width: 410px){
+	#livre{
+		margin-top: 7rem;
+		margin-left:10%;
+		margin-right:10%;
+	}
+}
+@media screen and (max-width: 360px){
+	.portfolio.projet{
+		margin-top:4rem;
+		margin-bottom:3rem;
+	}
+	.portfolio.expo{
+		margin-top:3rem;
+	}
+	.slider.projet{
+		height:50vh;
+	}
+	.slider.expo{
+		height:50vh;
+	}
+	#prev-projet{
+		left:-10%;
+	}
+	#next-projet{
+		right:-10%;
+	}
+}

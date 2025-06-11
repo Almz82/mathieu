@@ -1,0 +1,261 @@
+.portfolio.projet{
+	position:relative;
+	margin-top:7rem;
+	margin-bottom:3rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+.slider.projet{
+	position:relative;
+	height:95vh;
+	margin-left:10%;
+	margin-right:10%;
+}
+.slide{
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	opacity:0;
+}
+.slide.current{
+	opacity:1;
+}
+#prev-projet{
+	position:absolute;
+	top:47%;
+	left:6%;
+	cursor:pointer;
+}
+#next-projet{
+	position:absolute;
+	top:47%;
+	right:6%;
+	cursor:pointer;
+}
+.no-arrow{
+	opacity:0;
+	pointer-events:none;
+}
+/* SLIDES PROJET */
+.slide.projet:first-child{
+	background: url('../images/amour-et-rage/damouretderage01.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(2){
+	background: url('../images/amour-et-rage/damouretderage02.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(3){
+	background: url('../images/amour-et-rage/damouretderage03.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(4){
+	background: url('../images/amour-et-rage/damouretderage04.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(5){
+	background: url('../images/amour-et-rage/damouretderage05.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(6){
+	background: url('../images/amour-et-rage/damouretderage06.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(7){
+	background: url('../images/amour-et-rage/damouretderage07.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(8){
+	background: url('../images/amour-et-rage/damouretderage08.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(9){
+	background: url('../images/amour-et-rage/damouretderage09.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(10){
+	background: url('../images/amour-et-rage/damouretderage10.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(11){
+	background: url('../images/amour-et-rage/damouretderage11.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(12){
+	background: url('../images/amour-et-rage/damouretderage12.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(13){
+	background: url('../images/amour-et-rage/damouretderage13.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(14){
+	background: url('../images/amour-et-rage/damouretderage14.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(15){
+	background: url('../images/amour-et-rage/damouretderage15.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(16){
+	background: url('../images/amour-et-rage/damouretderage16.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(17){
+	background: url('../images/amour-et-rage/damouretderage17.jpg') no-repeat center;
+	background-size:contain;
+}
+.slide.projet:nth-child(18){
+	background: url('../images/amour-et-rage/damouretderage18.jpg') no-repeat center;
+	background-size:contain;
+}
+
+#livre{
+	font-family:minipax;
+	font-size:1.6rem;
+	margin-top: 12rem;
+	margin-bottom:2rem;
+	margin-left:10%;
+	margin-right:10%;
+}
+#livre:hover #arrow-livre{
+	visibility: hidden;
+}
+#arrow-livre{
+	margin-right:1rem;
+}
+#livre a{
+	text-decoration:none;
+	color:black;
+}
+#livre:hover span{
+	text-decoration:underline;
+}
+.container{
+	padding-top: 3rem;
+	margin-left:10%;
+	margin-right:10%;
+	padding-bottom: 3rem;
+}
+.photo-gallery{
+    display:flex;
+    gap: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1120px){
+	#prev-projet{
+		left:4%;
+	}
+	#next-projet{
+		right:4%;
+	}
+}
+@media screen and (max-width: 1060px){
+	#prev-projet{
+		left:1%;
+	}
+	#next-projet{
+		right:1%;
+	}
+}
+@media screen and (max-width: 960px){
+	#prev-projet{
+		left:-4%;
+	}
+	#next-projet{
+		right:-4%;
+	}
+}
+@media screen and (max-width: 860px){
+	.portfolio.projet{
+		margin-top:4rem;
+	}
+	.slider.projet{
+		height:90vh;
+	}
+	#prev-projet{
+		left:-8%;
+	}
+	#next-projet{
+		right:-8%;
+	}
+}
+@media screen and (max-width: 760px){
+	.slider.projet{
+		height:85vh;
+	}
+	#livre{
+		margin-top: 9rem;
+		margin-bottom:0rem;
+	}
+	.photo-gallery{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 660px){
+	.slider.projet{
+		height:80vh;
+	}
+	#livre{
+		margin-left:17%;
+		margin-right:17%;
+	}
+	.container{
+		margin-left:17%;
+		margin-right:17%;
+	}
+}
+@media screen and (max-width: 560px){
+	.slider.projet{
+		height:70vh;
+	}
+	#livre{
+		margin-left:13%;
+		margin-right:13%;
+		margin-top: 7rem;
+	}
+	.container{
+		margin-left:13%;
+		margin-right:13%;
+	}
+}
+@media screen and (max-width: 460px){
+	.slider.projet{
+		height:60vh;
+	}
+}
+@media screen and (max-width: 360px){
+	.portfolio.projet{
+		margin-top:4rem;
+		margin-bottom:3rem;
+	}
+	.slider.projet{
+		height:50vh;
+	}
+	#prev-projet{
+		left:-12%;
+	}
+	#next-projet{
+		right:-12%;
+	}
+	#livre{
+		margin-top: 7rem;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	.container{
+		margin-left:10%;
+		margin-right:10%;
+	}
+}

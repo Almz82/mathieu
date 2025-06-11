@@ -1,0 +1,89 @@
+@font-face
+{
+	font-family: "lack";
+		src:	url("../fonts/lack/Lack.ttf"),
+				url("../fonts/lack/Lack.woff"),
+				url("../fonts/lack/Lack.woff2");
+}
+#tel{
+	display:inline-block;
+	width:73vw;
+	position:absolute;
+	left:0;
+	text-align:right;
+}
+#formulaire{
+	position: relative;
+	height: 75vh;
+	font-family:'minipax';
+	margin-top:8rem;
+	margin-bottom:2rem;
+	opacity:0;
+	transition-duration:0.5s;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.formulaire-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+#formulaire #adresse{
+	width: fit-content;
+	text-align: center;
+	z-index: 3;
+}
+.lettre{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#formulaire #adresse:hover{
+	cursor: pointer;
+}
+#lettre{
+	z-index: 0;
+}
+#formulaire #message{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1;
+}
+#formulaire #message:hover{
+	cursor: none;
+}
+@media screen and (max-width: 660px) {
+	#tel{
+	width:75vw;
+	}
+}
+@media screen and (max-width: 560px) {
+	#tel{
+	top:4rem;
+	font-size:2rem;
+	}
+	#formulaire{
+		font-size: 1.6rem;
+	}
+}
+@media screen and (max-width: 410px) {
+	#formulaire{
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 280px) {
+	#tel{
+	display:none;
+	}
+	#formulaire{
+		font-size: 1.1rem;
+	}
+}
+
